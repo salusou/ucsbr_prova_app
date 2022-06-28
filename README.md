@@ -60,6 +60,7 @@ Content-Length: 84
     "login": string,
     "firstName": string,
     "email": "salusou@icloud.com",
+    "password": "1234"
 }
 
 ```
