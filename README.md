@@ -62,6 +62,15 @@ Content-Length: 84
     "email": "salusou@icloud.com",
 }
 
+### Exemplo do GetConnect; 
+
+```
+Future<Response<User>> registerUser(User user) => post('$restURL/register', user, contentType: 'application/json');
+
+Future<Response<String>> loginUser(Map<String, dynamic> login) => post('$restURL/authenticate', login, contentType: 'application/json');
+
+Future<Response<User>> getAccount(String token) => get('$restURL/api', headers: {'Authorization': 'Bearer $token'}, contentType: 'application/json');
+
 
 
 
