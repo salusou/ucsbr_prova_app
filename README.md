@@ -1,6 +1,6 @@
 # PROVA UCSBR
 
-Criar um usuário utilizando o metodo abaixo:
+## Criar um usuário utilizando o metodo abaixo:
 
 POST /api/register HTTP/1.1
 Host: hom.onelegacychurch.com
@@ -14,7 +14,7 @@ Content-Length: 77
     "password": ""
 }
 
-Fazer Login Utilizando este Método 
+## Fazer Login Utilizando este Método 
 
 POST /api/authenticate HTTP/1.1
 Host: hom.onelegacychurch.com
